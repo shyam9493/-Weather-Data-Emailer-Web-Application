@@ -57,6 +57,14 @@ Sign up for a Weather.com API key at
   This probably runs the project
 
 ## Dependencies
-1.PHPMailer:(https://github.com/PHPMailer/PHPMailer)
-2.Weather.com (https://www.weatherapi.com/)
+PHPMailer:(https://github.com/PHPMailer/PHPMailer),Weather.com (https://www.weatherapi.com/)
+
+## Approach
+
+I first created a api from weather.com and then wrote a small program using the documentation:(https://www.weatherapi.com/docs/) and retrieved the information for a static location.
+Then I started exploring php mailer and tried sending a Hi messages through mail .Then I started Entering the subject through the first created small program using api and merged these two fields and I then started creating a small interface which is suitable for the inputs and posted them into the merged code.
+
+## Output
+
+After Entering the email and location you would get a prompt saying that email sent to youremail@example.com
 
