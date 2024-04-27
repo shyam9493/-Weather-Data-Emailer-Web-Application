@@ -5,7 +5,7 @@ This project is a simple web application built using HTML, CSS, and JavaScript a
 
 ## Table of Contents
 - [Prerequisites](#Prerequisites)
-- [Installation and Running](#Installation)
+- [Installation and Running](#Installation and Running)
 - [Usage](#usage)
 - [Approach](#approach)
   
