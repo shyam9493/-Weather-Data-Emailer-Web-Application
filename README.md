@@ -5,7 +5,7 @@ This project is a simple web application built using HTML, CSS, and JavaScript a
 
 ## Table of Contents
 - [Prerequisites](#Prerequisites)
-- [Installation and Running](#Installation and Running)
+- [Installation](#Installation)
 - [Usage](#usage)
 - [Approach](#approach)
   
@@ -37,7 +37,7 @@ Before getting started, ensure you have the following prerequisites installed on
   To get auth password it is mandatory that you should turn on two step authentication and search for app passwords and create a new password
   for more clarity try reaching out this youtube link
   Youtube: [watch](https://youtu.be/aB6iovBcAAQ?si=99p_B2Vs7F3hMU6t)
-## Installation and Running
+## Installation
 To run this project locally, follow these steps:
 
 1. Clone the repository:
