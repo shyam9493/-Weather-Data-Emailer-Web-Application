@@ -44,4 +44,11 @@ To run this project locally, follow these steps:
 ```bash
 git clone https://github.com/shyam9493/-Weather-Data-Emailer-Web-Application.git
 ```
-
+2.locate to the folder where you have installed and create a file named '.env' and the content is 
+```bash
+WHEATHER_API_KEY=Your Api key
+OPEN_AI_API_KEY=Your Api key
+```
+To get API key 
+Sign up for a Weather.com API key at
+(https://www.weatherapi.com/signup.aspx)
