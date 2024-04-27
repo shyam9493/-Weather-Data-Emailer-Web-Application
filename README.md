@@ -39,12 +39,12 @@ Before getting started, ensure you have the following prerequisites installed on
   Youtube: [watch](https://youtu.be/aB6iovBcAAQ?si=99p_B2Vs7F3hMU6t)
 ## Installation
 To run this project locally, follow these steps:
-
-1. Clone the repository:
+- Clone the repository:
 ```bash
 git clone https://github.com/shyam9493/-Weather-Data-Emailer-Web-Application.git
 ```
-2.locate to the folder where you have installed and create a file named '.env' and the content is 
+- select repo destination in C=> xampp=> htdocs
+- locate to the folder where you have installed and create a file named '.env' and the content is 
 ```bash
 WHEATHER_API_KEY=Your Api key
 OPEN_AI_API_KEY=Your Api key
@@ -52,4 +52,7 @@ OPEN_AI_API_KEY=Your Api key
 To get API key 
 Sign up for a Weather.com API key at
 (https://www.weatherapi.com/signup.aspx)
+
+- To run this first turn on the Apache and xampp server and open your preferred browser and type localhost/path_to_your_folder(excluding C:\xampp\htdocs)
+  This probably runs the project 
 
