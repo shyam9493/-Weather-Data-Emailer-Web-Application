@@ -6,7 +6,7 @@ This project is a simple web application built using HTML, CSS, and JavaScript a
 ## Table of Contents
 - [Prerequisites](#Prerequisites)
 - [Installation](#Installation)
-- [Usage](#usage)
+- [Dependencies](#Dependencies)
 - [Approach](#approach)
   
 
@@ -54,5 +54,9 @@ Sign up for a Weather.com API key at
 (https://www.weatherapi.com/signup.aspx)
 
 - To run this first turn on the Apache and xampp server and open your preferred browser and type localhost/path_to_your_folder(excluding C:\xampp\htdocs)
-  This probably runs the project 
+  This probably runs the project
+
+## Dependencies
+-PHPMailer:(https://github.com/PHPMailer/PHPMailer)
+-Weather.com (https://www.weatherapi.com/)
 
