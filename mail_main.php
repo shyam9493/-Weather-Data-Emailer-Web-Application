@@ -4,9 +4,8 @@ require_once  __DIR__ . '/vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
-function get_weather(){
+function get_weather($location){
 $weather_api_key = $_ENV['WHEATHER_API_KEY'];
-$location = 'India';
 $url = "http://api.weatherapi.com/v1/current.json?key=$weather_api_key&q=$location&aqi=no";
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -26,10 +25,6 @@ if (isset($weather_data['current']['temp_c'])){
     $precipitation_mm = $weather_data['current']['precip_mm'];
     $weather_condition = $weather_data['current']['condition']['text'];
 
-    echo "Temperature:",$temperature_celsius,"<br>";
-    echo "Humidity: $humidity <br>";
-    echo $precipitation_mm,"<br>";
-    echo $weather_condition;
     return $weather_data;
 
 }
@@ -37,8 +32,8 @@ if (isset($weather_data['current']['temp_c'])){
 curl_close($ch);
 
 }
-
-$weather_data = get_weather(); 
+$location = $_POST['location'];
+$weather_data = get_weather($location); 
 
 
 $data  = "Dear User, \n\n\n";
@@ -50,15 +45,15 @@ $data .= "Weather Condition: {$weather_data['current']['condition']['text']} \n"
 $data .= "This information should help you plan your day accordingly. If you need any further details or assistance, please feel free to reach out.\n\n";
 $data .= "Best regards,\n";
 $data .= "Weather reporter.\n";
-echo $data;
 
-$to="bucky17d@gmail.com";
+
+$to=$_POST["email"];
 $subject="Weather Update: Current Conditions";
 $email="shyamnandapuneedi123@gmail.com";
 $header="From: $email";
 $message=$data;
 if(mail($to,$subject,$message,$header)){
-    echo "email sent";
+    echo "email sent to {$to}";
 }else{
     echo "error";
 }
