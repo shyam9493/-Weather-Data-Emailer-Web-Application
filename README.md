@@ -57,6 +57,6 @@ Sign up for a Weather.com API key at
   This probably runs the project
 
 ## Dependencies
--PHPMailer:(https://github.com/PHPMailer/PHPMailer)
--Weather.com (https://www.weatherapi.com/)
+1.PHPMailer:(https://github.com/PHPMailer/PHPMailer)
+2.Weather.com (https://www.weatherapi.com/)
 
