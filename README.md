@@ -73,7 +73,7 @@ After Entering the email and location you would get a prompt saying that email s
 extension of this we can use open ai to create mails , I have set open_ai.php where we use open ai api key to retrieve some data.
 To integrate with it just merge those codes and send that weather report as an input for the model and include some prompt like write a email such that returns some data , put that data to subject of the mail
 
-##API 
+## API 
 - Wheather.com api sample response
   ```bash
   {
