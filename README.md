@@ -115,7 +115,7 @@ To integrate with it just merge those codes and send that weather report as an i
         "uv": 9,
         "gust_mph": 9,
         "gust_kph": 14.5
+      }
     }
-}
-  ```
+```
 
